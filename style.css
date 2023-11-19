@@ -116,3 +116,73 @@ body {
     position: relative;
     z-index: 1;
   }
+
+  .card__img {
+  position: absolute;
+  z-index: 2;
+  top: 5.4em;
+  left: 0;
+  width: 100%;
+}
+
+.card__img img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 6.6em;
+    border: white 4px solid;
+}
+
+.card__profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 4.45rem 0 1.15rem;
+    border-bottom: 0.1px solid hsla(0, 0%, 88%, 0.74);
+}
+
+.profile__name {
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile__location {
+    margin-bottom: 0.4rem;
+  }
+  
+  .profile__age {
+    margin-left: 0.25em;
+  }
+
+  .card__stats {
+    padding: 1.45rem 2.8rem 1.4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    width: 4rem;
+  }
+
+  .stat__label {
+    margin-top: 0.25rem;
+  }
+
+  footer {
+    padding: 0.5em 0;
+    background: transparent;
+  }
+  
+  .attribution {
+    position: fixed;
+    bottom: 5px;
+    font-size: 11px;
+    text-align: center;
+    color: black;
+  }
+  
+  .attribution a {
+    font-size: inherit;
+    color: inherit;
+  }
