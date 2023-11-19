@@ -146,3 +146,14 @@ span {
     font-size: smaller;
     font-weight: lighter;
 }
+
+.attribution {
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attributrion a {
+    text-decoration: none;
+    color: aquamarine;
+}
