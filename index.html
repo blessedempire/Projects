@@ -14,45 +14,36 @@
   </style>
 </head>
 <body>
-  <div id="toppattern"></div>
-  <div id="container">
-
-    <div id="theme">
-      <img src="/images/favicon-32x32.png" alt="icon" id="icon" srcset="dark mode">
+  <main class="main">
+    <div class="main__wrapper">
+      <section class="card">
+        <div class="card__header">
+          <div class="card__img">
+            <img
+              src="./images/image-victor.jpg"
+              alt="profile picture of Victor"
+            />
+          </div> 
+        </div>
+        <div class="card__profile">
+          <h2 class="profile__name">
+            Victor Crest <span class="profile__age">26</span>
+          </h2>
+          <div class="profile-location">London</div>
+        </div>
+        <ul class="card__stats">
+          <li class="stat">80K <span class="stat__label">Followers</span></li>
+          <li class="stat">803K <span class="stat__label">Likes</span></li>
+          <li class="stat">1.4K <span class="stat__label">Photos</span></li>
+        </ul>
+      </section>
     </div>
-
-    <main>
-      <div id="patterncard"></div>
-      <div id="image">
-        <img src="/images/image-victor.jpg" class="profile-img" alt="profile image">
-      </div>
-      <div id="detail">
-        <h1>Victor Crest <span class="grey-text">26</span></h1>
-        <p class="grey-text">London</p>
-      </div>
-      <div id="special">
-        <div class="social">
-          <h2>80k</h2>
-          <p class="grey-textsmall">Followers</p>
-        </div>
-        <div class="social">
-          <h2>803k</h2>
-          <p class="grey-textsmall">Likes</p>
-        </div>
-        <div class="social">
-          <h2>1.4k</h2>
-          <p class="grey-textsmall">Photos</p>
-        </div>
-      </div>
-    </main>
-  
-
-    <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Emediong Peter</a>.
-    </div>
-
-  </div>  
-  <div id="bottompattern"></div>
+  </main>
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      >Frontend Mentor</a
+    >. Coded by <a href="https://twitter.com/elaineclleung">Elaine</a>.
+  </footer>
 </body>
 </html>
