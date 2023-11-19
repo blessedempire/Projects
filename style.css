@@ -79,7 +79,7 @@ main {
     max-width: 400px;
     width: 90%;
     margin: 20px auto 50px;
-    background-color: hsl(228, 11%, 18%);
+    background-color: hsl(230, 37%, 97%);
 }
 
 main:hover {
@@ -112,9 +112,27 @@ main:hover {
     margin: 1.5em;
 }
 
-#social {
-    display: grid;
-    flex-direction: column;
+#special {
+    display: flex;
+    flex-direction: row;
     border-top: 2px solid hsl(0, 0%, 59%);
     padding: 1.1rem;
+    justify-content: space-evenly;
+}
+
+
+#grey-text {
+    color: hsl(0, 0%, 59%);
+    font-size: smaller;
+    font-weight: lighter;
+    transition: all .4s;
+}
+
+#grey-text:hover {
+    color: hsl(185, 75%, 39%);
+}
+
+span {
+    font-size: smaller;
+    font-weight: lighter;
 }
