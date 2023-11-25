@@ -2,10 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
     background-color: #f5f1f1;
+
 }
 
 .sec {
@@ -16,7 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: hsl(185, 75%, 39%);
+    background-color: hsl(195, 17%, 95%);
     font-family: sans-serif;
     color: hsl(229, 23%, 23%);
 }
@@ -31,12 +33,32 @@ body {
 }
 
 .first {
-    width: 350px;
+    width: 250px;
     margin: 30px;
+    background-color: #db6e14;
+    border-radius: 10px;
+
 }
 
 .imgcontainer {
     width: 100%;
+    height: 50vh;
+    background-image: url(newimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    padding-top: 40px;
+    font-size: medium;
+    font-weight: 400px;
 }
 
 .mainimg {
@@ -46,13 +68,39 @@ body {
 
 .signcontainer {
     width: 100%;
-    height: 402px;
+    height: 146px;
 }
 
 
 
-
+/* Second Part of the first container */
 .second {
     width: 350px;
     margin: 30px;
+    display: flex;
+    flex-direction: row;
 }
+
+.signfirst {
+    color: #ffffff;
+    position: absolute;
+    margin: 0 20px;
+    font-size: 30px;
+}
+
+.signsec {
+    color: #ffffff;
+    float: right;
+    font-size: 30px;
+    margin: 0 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
