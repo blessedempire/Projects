@@ -47,11 +47,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-bottom-left-radius: 150px;
-    border-bottom-right-radius: 150px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;   
     text-align: center;
+    border-radius: 10px 10px 150px 150px;
 }
 
 h1 {
@@ -66,41 +63,47 @@ h1 {
     min-height: 50vh;
 }
 
+/* Second Part of the first container */
 .signcontainer {
     width: 100%;
     height: 146px;
-}
-
-
-
-/* Second Part of the first container */
-.second {
-    width: 350px;
-    margin: 30px;
     display: flex;
     flex-direction: row;
 }
 
+.second {
+    width: 350px;
+    margin: 30px;
+}
+
 .signfirst {
     color: #ffffff;
-    position: absolute;
-    margin: 0 20px;
-    font-size: 30px;
+    position: relative;
+    margin: 0 auto;
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+.line {
+    width: 3px;
+    height: 100%;
+    background-color: #ffffff;
 }
 
 .signsec {
     color: #ffffff;
-    float: right;
-    font-size: 30px;
-    margin: 0 20px;
-
+    font-size: 25px;
+    margin: 0 auto;
 }
 
 a {
     text-decoration: none;
+    font-weight: bolder;
 }
 
 a:hover {
     color: black;
 }
 
+
+/* Second Container for the form */
