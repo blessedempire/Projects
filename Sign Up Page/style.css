@@ -19,7 +19,7 @@ body {
     position: relative;
     background-color: hsl(195, 17%, 95%);
     font-family: sans-serif;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 /* Whole Container */
@@ -59,7 +59,7 @@ body {
 
 .imgcontainer {
     width: 100%;
-    height: 50vh;
+    height: 300px;
     background-image: url(newimg.jpg);
     background-size: cover;
     background-position: center;
@@ -77,13 +77,13 @@ h1 {
 
 .mainimg {
     width: 100%;
-    min-height: 50vh;
+    
 }
 
 /* Second Part of the first container */
 .signcontainer {
     width: 100%;
-    height: 146px;
+    height: 90px;
     display: flex;
     flex-direction: row;
 }
@@ -99,12 +99,12 @@ h1 {
     margin: 0 auto;
     font-size: 25px;
     padding-right: 5px;
-    padding-top: 38px;
+    padding-top: 15px;
 }
 
 .line {
     width: 3px;
-    height: 100%;
+    height: auto;
     background-color: #ffffff;
 }
 
@@ -112,7 +112,7 @@ h1 {
     color: #ffffff;
     font-size: 25px;
     margin: 0 auto;
-    padding-top: 38px;
+    padding-top: 15px;
 
 }
 
@@ -140,7 +140,6 @@ a:hover {
     color: #ffffff;
     text-align: center;
     margin: 20px;
-    padding-bottom: 20px;
 }
 
 .form-fill {
@@ -155,6 +154,7 @@ input {
     margin-bottom: 20px;
     border-radius: 5px;
     border: #ffffff;
+    font-weight: bold;
 }
 
 .sup {
@@ -170,6 +170,6 @@ input {
 
 /* Password */
 .for-pass {
-    color: #000000;
+    color: #ffffff;
     margin: 0 auto;
 }
