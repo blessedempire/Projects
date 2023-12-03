@@ -32,12 +32,32 @@ body {
     border-radius: 10px;
 }
 
-/* For smaller screen of 320px */
-@media screen and (max-width: 320px) {
+/* For smaller screen of 620px */
+@media screen and (max-width: 620px) {
     .container {
         display: flex;
         flex-direction: column;
         max-width: 320px;
+    }    
+
+    .second {
+        height: 404px;
+    }
+
+    .signfirst, .signsec {
+        padding-top: 38px;
+    }
+}
+
+/* For x-small screen of 280px */
+@media screen and (max-width: 280px) {
+    .sec {
+        margin: 0 auto;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
     }    
 
     .second {
