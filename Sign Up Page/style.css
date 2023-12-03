@@ -18,7 +18,6 @@ body {
     align-items: center;
     position: relative;
     background-color: hsl(195, 17%, 95%);
-    font-family: sans-serif;
     margin-top: 90px;
 }
 
@@ -93,6 +92,11 @@ h1 {
     padding-top: 40px;
     font-size: medium;
     font-weight: 400px;
+}
+
+h1:hover {
+    color: #000000;
+    cursor: pointer;
 }
 
 .mainimg {
