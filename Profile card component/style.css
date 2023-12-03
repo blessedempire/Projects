@@ -18,6 +18,12 @@ body {
     color: hsl(229, 23%, 23%);
 }
 
+@media screen and (max-width: 280px) {
+  body {
+    margin: 0 auto;
+  }
+}
+
 /* Style list and h2 and its children */
 .profile-name, .stat {
     font-weight: 700;
