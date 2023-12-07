@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+#main-sec {
+    width: 325px;
+    height: 75vh;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 70px auto;
+}
+
+#container {
+    width: 325px;
+    height: 75vh;
+}
+
+#img {
+    width: 300px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 3px;
+    /* height: auto; */
+}
+
+/* Txt style */
+#main-txt {
+    font-weight: 700;
+}
