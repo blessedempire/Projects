@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-size: 15px;
+    font-family: "Outfit", sans-serif;
 }
 
 body {
@@ -10,22 +11,22 @@ body {
 }
 
 #main-sec {
-    width: 325px;
-    height: 75vh;
+    width: 270px;
+    height: auto;
     justify-content: center;
     text-align: center;
     background-color: #ffffff;
     border-radius: 15px;
-    margin: 70px auto;
+    margin: 100px auto;
 }
 
 #container {
-    width: 325px;
-    height: 75vh;
+    width: 270px;
+    height: auto;
 }
 
 #img {
-    width: 300px;
+    width: 250px;
     border-radius: 15px;
     margin: 10px;
     padding: 3px;
@@ -34,5 +35,15 @@ body {
 
 /* Txt style */
 #main-txt {
+    margin: 20px;
+    opacity: .8;
     font-weight: 700;
+    font-size: 1.2em;
+}
+
+#aux-txt {
+    margin: auto 30px;
+    padding-bottom: 10px;
+    opacity: .6;
+    font-weight: 400;
 }
