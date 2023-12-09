@@ -7,12 +7,39 @@
 
 body {
     background-color: hsl(233, 47%, 7%);
+    width: 100%;
 }
 
+/* Style Main Container */
 #container {
     background-color: hsl(244, 38%, 16%);
     width: 70%;
-    height: 400px;
+    height: 27em;
     border-radius: 6px;
     margin: 8em auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Style Internal Container */
+#first-section {
+    width: 50%;
+}
+
+h1 {
+    font-family: "Inter" , sans-serif;
+}
+
+#second-section {
+    width: 50%;
+    box-shadow: inset hsl(277, 64%, 61%);
+}
+
+p {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+#img {
+    width: 100%;
+    height: 100%;
 }
