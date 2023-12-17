@@ -6,36 +6,34 @@
 }
 
 body {
-    background-color: hsl(233, 47%, 7%);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 main#overall {
-    width: 768px;
-    height: auto;
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 620px) {
-    main#overall {
-        width: 500px;
-        height: auto;
-        margin: 0 auto;
-    }
-  }
-
-
-/* Style Main Container */
-#container {
-    background-color: hsl(244, 38%, 16%);
+    max-width: 80%; /* You can adjust this value as needed */
     width: 100%;
-    height: 27em;
-    border-radius: 6px;
-    margin: 8em auto;
-    display: flex;
-    flex-direction: row;
+    min-width: 50%;
+    height: 100vh;
+    padding: 25vh;
+    background-color: hsl(233, 47%, 7%);
 }
 
-/* Style Internal Container */
+ /* Internal Container */
+#container {
+    width: 60vw;
+    height: 23em;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Style Internal Container
 #first-section {
     width: 50%;
 }
@@ -56,4 +54,4 @@ p {
 #img {
     width: 100%;
     height: 100%;
-}
+} */
