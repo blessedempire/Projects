@@ -128,7 +128,7 @@ section ul p {
   }
   }
 
-  
+  /* Media query for 667px */
   @media only screen and (max-width: 667px) {
     body {
       flex-direction: column;
