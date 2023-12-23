@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 100vh;
+    min-width: 100vw;
     color: #ffffff;
 }
 
@@ -26,9 +26,8 @@ main {
 section {
     display: flex;
     flex-direction: column;
-    padding: 5em 7em 5em 5em;
+    padding: 5em;
     width: 570px;
-    min-width: 300px;
     background-color: hsl(244, 38%, 16%);
     border-radius: 0.7em 0 0 0.7em;
 }
@@ -76,9 +75,7 @@ section ul p {
 
 /* Image Part */
 .bg-img {
-    min-height: 10em;
     width: 540px;
-    min-width: 200px;
     background: url(images/image-header-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,11 +88,11 @@ section ul p {
     height: 100%;
 }
 
-/* .overlay-2 {
+.overlay-2 {
     background: hsl(293deg, 42%, 35%, 0.24);
     height: 100%;
     mix-blend-mode: color-burn;
-} */
+}
 
 /* Footer */
 .attribution {
@@ -118,17 +115,21 @@ section ul p {
     color: #ffffff;
   }
 
-  /* Media Query */
-  /* @media only screen and (max-width: 1024px) {
-    :root {
-      font-size: 12px;
-    }
-    section {
-      padding: 3em 4.5em 3em 3em;
-    }
+  /* Media Query for 934px Width */
+  @media only screen and (max-width: 767px) {
+    main {
+      margin-top: 10vh;
   }
+  }
+
+  @media only screen and (max-width: 689px) {
+    main {
+      margin-top: 1.8em;
+  }
+  }
+
   
-  @media only screen and (max-width: 625px) {
+  @media only screen and (max-width: 667px) {
     body {
       flex-direction: column;
     }
@@ -182,4 +183,4 @@ section ul p {
       position: relative;
       margin-top: 20px;
     }
-  } */
+  }
