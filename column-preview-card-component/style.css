@@ -4,6 +4,7 @@
     margin: 0;
     font-size: 15px;
     color: #ffffff;
+    font-family: 'Lexend Deca';
 }
 
 body {
@@ -29,7 +30,7 @@ main {
 
 .first, .second, .third {
     margin: 0 auto;
-    min-width: 200px;
+    min-width: 100px;
     height: 32em;
     padding: 20px;
 }
@@ -50,4 +51,7 @@ main {
 
 h1 {
     font-weight: 700;
+    font-family: "Lexend Deca";
+    font-size: 1em;
+    line-height: 3em;
 }
