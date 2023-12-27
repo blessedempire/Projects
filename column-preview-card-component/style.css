@@ -9,14 +9,12 @@
 
 body {
     background-color: hsla(0, 0%, 100%, 0.75);
-    width: 100%;
-    margin: 0 auto;
 }
 
 main {
-    width: 60%;
-    margin: 5em auto;
-    padding-top: 1em;
+    width: 600px;
+    height: 200px;
+    margin: 100px auto;
     justify-content: center;
     align-items: center;
 }
@@ -30,15 +28,13 @@ main {
 
 
 #container {
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    min-width: 600px;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .first, .second, .third {
-    margin: 0 auto;
     min-width: 100px;
     height: 32em;
     padding: 20px;
@@ -86,9 +82,10 @@ a {
     border: #ffffff solid 1px;
     border-radius: 1em;
     text-decoration: none;
-    padding: .5em;
+    padding: .8em;
 }
 
 a:hover {
     background-color: #ffffff;
+    color: hsl(31, 77%, 52%);
 }
