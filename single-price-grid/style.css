@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    Font-size: 16px
+    Font-size: 16px;
+    font-family: 'Karla', sans-serif;
 }
 
 body {
@@ -14,6 +15,9 @@ body {
 main {
     width: 34.5em;
     height: 24em;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -31,9 +35,44 @@ section {
 #up {
     width: 100%;
     height: 50%;
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 7px 7px 0 0 ;
 }
 
+h1 {
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 1em;
+}
+
+h2 {
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 1em;
+    font-size: .8em;
+    opacity: .8;
+    word-spacing: 1px;
+}
+
+p {
+    opacity: .5;
+    padding-bottom: 1em;
+}
+
+/* Down Part of the Container */
 #down {
     width: 100%;
     height: 50%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+#first {
+    width: 50%;
+    height: 100%;
+}
+
+#second {
+    width: 50%;
+    height: 100%;
 }
