@@ -10,7 +10,7 @@
 body {
     background-color: hsla(0, 0%, 100%, 0.75);
     width: 100vw;
-    margin: 5.94em auto;
+    margin: 3.95em auto;
 }
 
 main {
@@ -30,7 +30,7 @@ main {
 }
 
 .first, .second, .third {
-    height: 27em;
+    height: 30em;
     padding: 20px;
     padding: 2em;
 }
@@ -68,7 +68,7 @@ main {
 
 h1 {
     font-weight: 700;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 5em;
 }
 
