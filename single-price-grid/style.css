@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    Font-size: 16px
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 34.5em;
+    height: 24em;
+}
+
+section {
+    width: 100%;
+    height: 24em;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#up {
+    width: 100%;
+    height: 50%;
+}
+
+#down {
+    width: 100%;
+    height: 50%;
+}
