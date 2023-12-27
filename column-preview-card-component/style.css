@@ -77,3 +77,18 @@ p {
     font-weight: 400;
     font-size: .9em;
 }
+
+.dep {
+    margin-top: 6em;
+}
+
+a {
+    border: #ffffff solid 1px;
+    border-radius: 1em;
+    text-decoration: none;
+    padding: .5em;
+}
+
+a:hover {
+    background-color: #ffffff;
+}
