@@ -1,20 +1,22 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
     padding: 0;
     margin: 0;
     font-size: 15px;
     color: #ffffff;
-    font-family: 'Lexend Deca';
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 body {
     background-color: hsla(0, 0%, 100%, 0.75);
+    width: 100vw;
+    /* margin: 6.94em auto; */
 }
 
 main {
-    width: 600px;
-    height: 200px;
-    margin: 100px auto;
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
@@ -28,6 +30,7 @@ main {
 
 
 #container {
+    width: 800px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -35,10 +38,9 @@ main {
 }
 
 .first, .second, .third {
-    min-width: 100px;
-    height: 32em;
+    height: 27em;
     padding: 20px;
-    margin: 0 auto;
+    padding: 2em;
 }
 
 .first {
@@ -50,14 +52,30 @@ main {
     background-color: hsl(184, 100%, 22%);
 }
 
+
 .third {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 10px 10px 0;
 }
 
+/* Hover */
+.first a:hover {
+    background-color: #ffffff;
+    color: hsl(31, 77%, 52%);
+}
+
+.second a:hover {
+    background-color: #ffffff;
+    color: hsl(184, 100%, 22%);
+}
+
+.third a:hover {
+    background-color: #ffffff;
+    color: hsl(179, 100%, 13%);
+}
+
 h1 {
     font-weight: 700;
-    font-family: "Lexend Deca";
     font-size: 1em;
     margin-bottom: 5em;
 }
@@ -72,6 +90,8 @@ p {
     opacity: .5;
     font-weight: 400;
     font-size: .9em;
+    word-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 .dep {
@@ -83,9 +103,4 @@ a {
     border-radius: 1em;
     text-decoration: none;
     padding: .8em;
-}
-
-a:hover {
-    background-color: #ffffff;
-    color: hsl(31, 77%, 52%);
 }
