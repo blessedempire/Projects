@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=karla:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,8 +15,8 @@ body {
 }
 
 main {
-    width: 34.5em;
-    height: 24em;
+    width: 38.5em;
+    height: 30em;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -22,7 +24,7 @@ main {
 
 section {
     width: 100%;
-    height: 24em;
+    height: 30em;
 }
 
 #container {
@@ -37,42 +39,124 @@ section {
     height: 50%;
     padding: 2em;
     background-color: #ffffff;
-    border-radius: 7px 7px 0 0 ;
+    border-radius: 7px 7px 0 0;
 }
 
 h1 {
     color: hsl(179, 62%, 43%);
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-weight: 700;
 }
 
 h2 {
     color: hsl(71, 73%, 54%);
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     font-size: .8em;
     opacity: .8;
     word-spacing: 1px;
 }
 
-p {
+.top-para {
     opacity: .5;
-    padding-bottom: 1em;
+    padding-bottom: .2em;
+}
+
+.top-par {
+    opacity: .5;
 }
 
 /* Down Part of the Container */
 #down {
     width: 100%;
     height: 50%;
-    padding: 2em;
     display: flex;
     flex-direction: row;
 }
 
-#first {
+.back {
     width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    opacity: .8;
+    border-radius: 0 0 0 7px;
+}
+
+.front {
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    opacity: .6;
+    border-radius: 0 0 7px 0;
+}
+
+#first {
+    padding: 2em 0 0 2em;
     height: 100%;
 }
 
 #second {
     width: 50%;
     height: 100%;
+}
+
+h3 {
+    letter-spacing: 1.5px;
+    padding-bottom: 1em;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.down-para {
+    color: #ffffff;
+    font-size: 2em;
+    padding-bottom: 2px;
+}
+
+.down-para span {
+    opacity: .5;
+}
+
+.para {
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: .1px;
+    padding-top: .5em;
+    opacity: .8;
+}
+
+.sign {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 8px;
+    width: 15em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Second Down Part */
+#second {
+    width: 100%;
+    padding: 2em;
+    color: #ffffff;
+}
+
+.dove {
+    padding-bottom: 1em;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+}
+
+li {
+    font-size: .8em;
+    padding-bottom: 7px;
+    opacity: .6;
 }
