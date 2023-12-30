@@ -5,6 +5,12 @@
     font-size: 16px;
 }
 
+body {
+    font-family: 'Rubik', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 /* Linear Gradient */
 .side {
     z-index: 0;
@@ -20,17 +26,18 @@
 /* Phone Image */
 .parent {
     width: 16.8em;
-    height: 33em;
+    height: 39em;
     position: absolute;
-    top: 15%;
-    left: 21.7%;
+    top: 10%;
+    left: 19.7%;
     background-color: hsl(270, 20%, 96%);
     border-radius: 2.5em;
     outline: 0.7em solid hsl(270, 20%, 96%);
     box-shadow: 0px 0px 20px 10px black;
-    /* animation: phone;
+    animation: phone;
     animation-duration: 1s;
-    animation-timing-function: ease-in; */
+    animation-timing-function: ease-in;
+    z-index: 1;
 }
 
 /* Inner Phone banner */
@@ -69,13 +76,14 @@
     top: 42%;
     left: 47%;
     transform: translate(-50%, -50%);
+    font-size: .9em;
 }
 
 .banner .profile-description {
     color: #ffffff;
     position: absolute;
     top: 65%;
-    left: 47%;
+    left: 48%;
     transform: translate(-50%, -50%);
     opacity: 60%;
     font-size: .8em;
@@ -131,3 +139,288 @@
     width: 80%;
 }
 
+.second-message-container {
+    width: 160px;
+    height: 50px;
+    padding: 5px;
+    background-color: hsla(264, 100%, 61%, 0.214);
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 25px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+}
+
+.second-message {
+    position: absolute;
+    font-size: 10px;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: hsl(264, 100%, 61%);
+    width: 80%;
+}
+
+/* Reply-Text-Img */
+.reply-img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    right: 40%;
+    top: 35%;
+}
+
+img {
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.first-reply-text {
+    width: 140px;
+    height: 50px;
+    padding: 5px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 120px;
+    font-size: 10px;
+    border-radius: 25px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+.first-reply {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: black;
+    width: 80%;
+    font-size: 10px;
+}
+
+.second-reply-text {
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 160px;
+    font-size: 10px;
+    border-radius: 25px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+.second-reply {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: black;
+    width: 80%;
+    font-size: 10px;
+}
+
+/* Third Message */
+.third-message-container {
+    width: 160px;
+    height: 50px;
+    padding: 20px;
+    background-color: hsla(264, 100%, 61%, 0.214);
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 25px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+}
+
+.third-message {
+    position: absolute;
+    font-size: 10px;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: hsl(264, 100%, 61%);
+    width: 80%;
+    word-spacing: 2px;
+}
+
+/* Option */
+.option-1 {
+    width: 180px;
+    height: 45px;
+    padding: 7px;
+    background-image: linear-gradient( to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%) );
+    margin-top: 9px;
+    margin-left: 10px;
+    font-size: 10px;
+    border-radius: 25px;
+    position: relative;
+    border-bottom-left-radius: 10px;
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.option-1-text {
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    opacity: 80%;
+    font-size: 10px;
+}
+
+h1 {
+    position: absolute;
+    left: 70%;
+    top: 13px;
+    height: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Send Message */
+.send-message {
+    background-color: #ffffff;
+    margin-left: 10px;
+    width: 250px;
+    height: 42px;
+    border-radius: 40px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.send-arrow {
+    width: 10px;
+    height: 10px;
+    border: 3px solid white;
+    border-bottom: transparent;
+    border-left: transparent;
+    position: absolute;
+    left: 217px;
+    top: 17px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.placeholder {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #eee;
+    font-weight: bold;
+}
+
+.color-arrow {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+    position: absolute;
+    left: 210px;
+    top: 10px;
+}
+
+/* Side Text */
+.side-text {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: hsl(270, 7%, 64%);
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+
+.first-span {
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+
+/* UpsideDown Gradient */
+.upside-down-gradient {
+    background-image: linear-gradient( to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%) );
+    width: 36em;
+    height: 39em;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    right: 0;
+    left: 70%;
+    bottom: 0;
+    transform: rotate(180deg);
+    opacity: 5%;
+    z-index: 0;
+}
+
+/* Media */
+@media screen and (max-width: 1023px) {
+.side-text {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+}
+
+@media screen and (max-width: 815px) {
+    .side-text {
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 650px) {    
+    .side-text {
+        position: absolute;
+        top: 120%;
+        left: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .upside-down-gradient {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        bottom: 0;
+    }
+
+    .first-span {
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+        margin-top: 20px;
+        margin-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .first-span {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 10em;
+        margin: 0 auto;
+    }
+}
