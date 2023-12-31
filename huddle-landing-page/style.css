@@ -9,11 +9,16 @@ body {
     background-color: hsl(257, 40%, 49%);
     background-image: url(/images/bg-desktop.svg);
     width: 100%;
+    font-family: sans-serif;
+}
+
+header {
+    margin: 3em;
+    padding-left: 1.5em;
 }
 
 header img {
     width: 10em;
-    margin: 2em;
 }
 
 /* main {
@@ -27,7 +32,6 @@ main {
 
 main .container {
     width: 90%;
-    height: 70vh;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -36,15 +40,57 @@ main .container {
 }
 
 .section {
-    width: 60%;
-    margin-top: 9px;
+    width: 50%;
 }
 
 .section img {
-    width: 100%;
-    height: 100%;
+    width: 47%;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
 }
 
 .second-section {
     width: 40%;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: 1.5em;
+    margin-bottom: 25px;
+}
+
+p {
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    opacity: .7;
+}
+
+.second-section .button {
+    background-color: #ffffff;
+    color: hsl(257, 40%, 49%);
+    border: 1px solid #ffffff;
+    display: inline-block;
+    text-align: center;
+    padding: 17px;
+    margin-top: 2em;
+    width: 12em;
+    font-weight: 400;
+    border-radius: 20px;
+    /* box-shadow: 2px 2px 2px 2px black; */
+}
+
+
+@media screen and (max-width: 1230px) {
+    .second-section {
+        width: 40%;
+        margin: 0 auto;
+    }
 }
