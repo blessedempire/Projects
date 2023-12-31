@@ -1,2 +1,2 @@
 # Projects
-This Repository contains projectrs built to master the magic behind HTML and CSS
+This Repository contains projectrs built with HTML and CSS
