@@ -67,7 +67,7 @@ main .start {
     width: 23em;
     margin-top: 3em;
     padding: 1.7em;
-    border-radius: 2em;
+    border-radius: 2.4em;
 }
 
 main a {
@@ -75,4 +75,18 @@ main a {
     color: #ffffff;
     font-size: 1.3em;
     font-weight: 600;
+}
+
+/* Next Part after Top-container */
+.mockup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.mockup img {
+    margin-top: 7em;
+    width: 70%;
+    height: 100%;
 }
