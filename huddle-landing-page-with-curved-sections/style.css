@@ -39,7 +39,7 @@ header .try-button {
 
 /* Main Body Section */
 main .top-container {
-    margin-top: 10em;
+    margin-top: 12em;
 }
 
 main h1 {
@@ -57,4 +57,22 @@ main .intro {
     font-size: 1.2em;
     font-weight: 400;
     opacity: .7;
+}
+
+main .start {
+    text-align: center;
+    background-color: hsl(322, 100%, 66%);    
+    display: block;
+    margin: 0 auto;
+    width: 23em;
+    margin-top: 3em;
+    padding: 1.7em;
+    border-radius: 2em;
+}
+
+main a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: 600;
 }
